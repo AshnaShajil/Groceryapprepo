@@ -1,17 +1,18 @@
-package transcript;
+package testscript;
 
 import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.LogOutPage;
+import constants.Constant;
+import pages.HomePage;
 import pages.LoginPage;
 import utilities.ExcelUtility;
 
-public class LogOutTest extends Base {
+public class HomeTest extends Base {
 	
-	@Test
+	@Test(description="validating wheather the user is able to logout and directed to loginpage")
 public void verifyTheUserIsAbleToLogout() throws IOException 
 {
 	String username=ExcelUtility.readStringData(1,0,"LoginPage");
@@ -21,11 +22,11 @@ public void verifyTheUserIsAbleToLogout() throws IOException
 	loginpage.enterThePassword(password);
 	loginpage.clickOnSignInButton();
 	
-	LogOutPage logoutpage=new LogOutPage(driver);
+	HomePage logoutpage=new HomePage(driver);
 	logoutpage.adminClick();
 	logoutpage.logOutClick();
 	Boolean check=logoutpage.signinIsDisplayed();
-	Assert.assertTrue(check);
+	Assert.assertTrue(check,Constant.LOGOUT);
 	
 	
 	
