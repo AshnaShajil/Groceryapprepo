@@ -13,7 +13,7 @@ public class ManageContactPages {
 @FindBy(xpath="//textarea[@placeholder='Enter the Address']")WebElement address;
 @FindBy(xpath="//textarea[@placeholder='Enter Delivery Time']")WebElement deliverytime;
 @FindBy(xpath="//button[@type='submit'and @name='Update']")WebElement updatebutton;
-@FindBy(xpath="//i[@class='icon fas fa-check']")WebElement contactupdatedalert;
+@FindBy(xpath="//div[contains(@class,' alert-success alert-dismissible')]")WebElement contactupdatedalert;
 
 
 public WebDriver driver;
