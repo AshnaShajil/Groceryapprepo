@@ -19,7 +19,7 @@ public class ManageCategoryPage {
 @FindBy(xpath="(//span[text()='discount'])[1]")WebElement discount  ;	
 @FindBy(xpath="//input[@type='file']")WebElement choosefile ;
 @FindBy(xpath="//button[@type='submit'and @name='create']")WebElement savebutton  ;
-@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")WebElement alert;
+@FindBy(xpath="//div[contains(@class,'alert-success')]")WebElement alert;
 public 	WebDriver driver;
 public ManageCategoryPage(WebDriver driver) 
 {
@@ -44,7 +44,7 @@ public ManageCategoryPage category(String categoryname)
 public ManageCategoryPage discountOption()
 {
 	discount.click();
-	return null;
+	return this;
 }
 public ManageCategoryPage chooseFile() throws AWTException
 {

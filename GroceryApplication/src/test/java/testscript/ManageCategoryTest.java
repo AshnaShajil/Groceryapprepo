@@ -26,12 +26,12 @@ public void verifyTheUserIsAbleToAccessAddCategoryPage() throws IOException, AWT
 	//loginpage.enterThePassword(password);
 	homepage=loginpage.clickOnSignInButton();
 
-    String categoryname=ExcelUtility.readStringData(1, 0, "Managecategory"); 
+   // String categoryname=ExcelUtility.readStringData(1, 0, "Managecategory"); 
    // ManageCategoryPage managecategorypage=new ManageCategoryPage(driver);
-   //FakerUtility fakerutility=new FakerUtility();
-   //String categoryname=fakerutility.createRandomFirstName();
+   FakerUtility fakerutility=new FakerUtility();
+   String categoryname=fakerutility.createRandomFirstName();
     managecategorypage=homepage.manageCategoryMoreInfo();
-    managecategorypage.newButton().category(categoryname).discountOption().chooseFile().chooseFile().saveButton();
+    managecategorypage.newButton().category(categoryname).discountOption().chooseFile().saveButton();
 //    managecategorypage.category(categoryname);
 //    managecategorypage.discountOption();
 //    managecategorypage.chooseFile();

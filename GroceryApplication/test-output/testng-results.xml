@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-25T12:21:12 IST" name="Suite" finished-at="2026-03-25T12:21:21 IST" duration-ms="9447">
+  <suite started-at="2026-03-25T14:51:13 IST" name="groceryapp" finished-at="2026-03-25T14:51:30 IST" duration-ms="17235">
     <groups>
       <group name="regression">
-        <method signature="ManageFooterTest.verifyTheUserIsAbleToUpdateManageFooterText()[pri:0, instance:testscript.ManageFooterTest@210ab13f]" name="verifyTheUserIsAbleToUpdateManageFooterText" class="testscript.ManageFooterTest"/>
+        <method signature="ManageCategoryTest.verifyTheUserIsAbleToAccessAddCategoryPage()[pri:0, instance:testscript.ManageCategoryTest@38145825]" name="verifyTheUserIsAbleToAccessAddCategoryPage" class="testscript.ManageCategoryTest"/>
+        <method signature="ManageFooterTest.verifyTheUserIsAbleToUpdateManageFooterText()[pri:0, instance:testscript.ManageFooterTest@7857fe2]" name="verifyTheUserIsAbleToUpdateManageFooterText" class="testscript.ManageFooterTest"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2026-03-25T12:21:12 IST" name="Test" finished-at="2026-03-25T12:21:21 IST" duration-ms="9447">
+    <test started-at="2026-03-25T14:51:13 IST" name="Test" finished-at="2026-03-25T14:51:30 IST" duration-ms="17235">
       <class name="testscript.ManageFooterTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageFooterTest@210ab13f]" started-at="2026-03-25T12:21:12 IST" name="browserInitialization" finished-at="2026-03-25T12:21:14 IST" duration-ms="2531" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageFooterTest@7857fe2]" started-at="2026-03-25T14:51:13 IST" name="browserInitialization" finished-at="2026-03-25T14:51:17 IST" duration-ms="3397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyTheUserIsAbleToUpdateManageFooterText()[pri:0, instance:testscript.ManageFooterTest@210ab13f]" started-at="2026-03-25T12:21:14 IST" name="verifyTheUserIsAbleToUpdateManageFooterText" description="validating wheather the user is able to access and create new category in managefooter page" finished-at="2026-03-25T12:21:17 IST" duration-ms="3180" status="PASS">
+        <test-method signature="verifyTheUserIsAbleToUpdateManageFooterText()[pri:0, instance:testscript.ManageFooterTest@7857fe2]" started-at="2026-03-25T14:51:17 IST" name="verifyTheUserIsAbleToUpdateManageFooterText" description="validating wheather the user is able to access and create new category in managefooter page" finished-at="2026-03-25T14:51:20 IST" duration-ms="3089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheUserIsAbleToUpdateManageFooterText -->
-        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageFooterTest@210ab13f]" started-at="2026-03-25T12:21:17 IST" name="browserQuitAndClose" finished-at="2026-03-25T12:21:18 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageFooterTest@7857fe2]" started-at="2026-03-25T14:51:20 IST" name="browserQuitAndClose" finished-at="2026-03-25T14:51:20 IST" duration-ms="236" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheUserIsAbleToUpdateManageFooterText status=SUCCESS method=ManageFooterTest.verifyTheUserIsAbleToUpdateManageFooterText()[pri:0, instance:testscript.ManageFooterTest@210ab13f] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheUserIsAbleToUpdateManageFooterText status=SUCCESS method=ManageFooterTest.verifyTheUserIsAbleToUpdateManageFooterText()[pri:0, instance:testscript.ManageFooterTest@7857fe2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -38,7 +39,7 @@
         </test-method> <!-- browserQuitAndClose -->
       </class> <!-- testscript.ManageFooterTest -->
       <class name="testscript.HomeTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.HomeTest@14bdbc74]" started-at="2026-03-25T12:21:18 IST" name="browserInitialization" finished-at="2026-03-25T12:21:19 IST" duration-ms="1738" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.HomeTest@5a7fe64f]" started-at="2026-03-25T14:51:20 IST" name="browserInitialization" finished-at="2026-03-25T14:51:23 IST" duration-ms="3007" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,15 +50,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyTheUserIsAbleToLogout()[pri:0, instance:testscript.HomeTest@14bdbc74]" started-at="2026-03-25T12:21:19 IST" name="verifyTheUserIsAbleToLogout" description="validating wheather the user is able to logout and directed to loginpage" finished-at="2026-03-25T12:21:21 IST" duration-ms="1408" status="PASS">
+        <test-method signature="verifyTheUserIsAbleToLogout()[pri:0, instance:testscript.HomeTest@5a7fe64f]" started-at="2026-03-25T14:51:23 IST" name="verifyTheUserIsAbleToLogout" description="validating wheather the user is able to logout and directed to loginpage" finished-at="2026-03-25T14:51:24 IST" duration-ms="1390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheUserIsAbleToLogout -->
-        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.HomeTest@14bdbc74]" started-at="2026-03-25T12:21:21 IST" name="browserQuitAndClose" finished-at="2026-03-25T12:21:21 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.HomeTest@5a7fe64f]" started-at="2026-03-25T14:51:24 IST" name="browserQuitAndClose" finished-at="2026-03-25T14:51:25 IST" duration-ms="211" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTheUserIsAbleToLogout status=SUCCESS method=HomeTest.verifyTheUserIsAbleToLogout()[pri:0, instance:testscript.HomeTest@14bdbc74] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTheUserIsAbleToLogout status=SUCCESS method=HomeTest.verifyTheUserIsAbleToLogout()[pri:0, instance:testscript.HomeTest@5a7fe64f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -65,6 +66,34 @@
           </reporter-output>
         </test-method> <!-- browserQuitAndClose -->
       </class> <!-- testscript.HomeTest -->
+      <class name="testscript.ManageCategoryTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2026-03-25T14:51:25 IST" name="browserInitialization" finished-at="2026-03-25T14:51:26 IST" duration-ms="1667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyTheUserIsAbleToAccessAddCategoryPage()[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2026-03-25T14:51:26 IST" name="verifyTheUserIsAbleToAccessAddCategoryPage" description="validating wheather the user is able to access and create new category in managecategorypage" finished-at="2026-03-25T14:51:30 IST" duration-ms="3828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToAccessAddCategoryPage -->
+        <test-method is-config="true" signature="browserQuitAndClose(org.testng.ITestResult)[pri:0, instance:testscript.ManageCategoryTest@38145825]" started-at="2026-03-25T14:51:30 IST" name="browserQuitAndClose" finished-at="2026-03-25T14:51:30 IST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTheUserIsAbleToAccessAddCategoryPage status=SUCCESS method=ManageCategoryTest.verifyTheUserIsAbleToAccessAddCategoryPage()[pri:0, instance:testscript.ManageCategoryTest@38145825] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuitAndClose -->
+      </class> <!-- testscript.ManageCategoryTest -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- groceryapp -->
 </testng-results>
