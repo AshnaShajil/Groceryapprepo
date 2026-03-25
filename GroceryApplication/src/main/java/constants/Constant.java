@@ -2,7 +2,7 @@ package constants;
 
 public class Constant {
 public static final String TESTDATAFILE=System.getProperty("user.dir")+"\\src\\test\\resources\\TestData.xlsx";
-public static final String CONSTANTIMAGE=System.getProperty("user.dir")+"C:\\Users\\ASHNA\\Pictures\\Saved Pictures\\fernando-andrade-nAOZCYcLND8-unsplash.jpg";
+public static final String CONSTANTIMAGE=System.getProperty("user.dir")+"\\src\\test\\resources\\fernando-andrade-nAOZCYcLND8-unsplash.jpg";
 
 public static final String CONGIGFILE=System.getProperty("user.dir")+"\\src\\main\\resources\\config.properties";
 

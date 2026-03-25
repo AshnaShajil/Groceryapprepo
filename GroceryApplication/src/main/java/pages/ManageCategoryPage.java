@@ -50,7 +50,7 @@ public ManageCategoryPage chooseFile() throws AWTException
 {
 	 
 	FileUploadUtility fileuploadutility=new FileUploadUtility();
-    fileuploadutility.fileUploadUsingSendKeys(choosefile, "C:\\Users\\ASHNA\\Pictures\\Saved Pictures\\fernando-andrade-nAOZCYcLND8-unsplash.jpg");
+    fileuploadutility.fileUploadUsingSendKeys(choosefile,  Constant.CONSTANTIMAGE);
 	return this;
     
 }
