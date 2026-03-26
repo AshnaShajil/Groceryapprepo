@@ -16,7 +16,7 @@ import utilities.FakerUtility;
 public class ManageCategoryTest extends Base{
 	public HomePage homepage;
 	public  ManageCategoryPage managecategorypage;
-@Test(groups="regression",description="validating wheather the user is able to access and create new category in managecategorypage")
+@Test(groups="regression",description="validating wheather the user is able to access and create new category in managecategorypage",retryAnalyzer=retry.Retry.class)
 public void verifyTheUserIsAbleToAccessAddCategoryPage() throws IOException, AWTException
 {
 	String username=ExcelUtility.readStringData(1,0,"LoginPage");

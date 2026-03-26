@@ -15,7 +15,7 @@ public class ManageContactTest extends Base
 {
 	public HomePage homepage;
 	public ManageContactPages managecontactpages;
-	@Test(groups="regression",description="validating wheather the user is able to update the details of managecontact page")
+	@Test(groups="regression",description="validating wheather the user is able to update the details of managecontact page",retryAnalyzer=retry.Retry.class)
   public void verifyTheUserIsAbleToUpadteManageContact() throws IOException
   {
 	    String username=ExcelUtility.readStringData(1,0,"LoginPage");
